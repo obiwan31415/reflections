@@ -1,6 +1,26 @@
 What happens when you initialize a repository? Why do you need to do it?
+	
 	git metadata is created needed to start tracking changes
 	
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	saves time for commits
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Use "git diff" to compare working directory with staging area and "git diff --staged" to compare staging area with the most recent commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Situation like you want to have parallel version of your project. At some point you create a branch of the project, eg. language version, easy version, new feature, new content. Braches help keeping the project organized. "Master" branch is the one taht always works, other branches are for testing purposes.
+
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams show which commits are reachable and which are not.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	We get changes merges into master version. The diagram shows history of versions in both branches before merge.
+
+
+

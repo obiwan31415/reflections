@@ -22,5 +22,9 @@ What is the result of merging two branches together? Why do we represent it in t
 
 	We get changes merges into master version. The diagram shows history of versions in both branches before merge.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging saves time and work fine in most cases. Manual merging would require verification each time.
+
 
 
